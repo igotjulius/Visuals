@@ -8,4 +8,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#068251</color>
+
+    <color name="primary">#225378</color>
+    <color name="secondary">#EB7F00</color>
+
+    <color name="night_mode">#F3FFE2</color>
+    <color name="notifications">#1695A3</color>
+    <color name="private_account">#ACF0F2</color>
+    <color name="security">#D95F69</color>
 </resources>
