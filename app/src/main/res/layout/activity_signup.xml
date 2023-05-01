@@ -15,18 +15,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/top_background" />
+        app:srcCompat="@drawable/top_background3" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/sf_medium"
         android:text="Create \nAccount"
         android:textColor="#ffffff"
         android:textSize="30sp"
-        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,16 +37,17 @@
         android:padding="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.916">
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_medium"
             android:text="Name"
             android:textColor="#000000"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
@@ -55,6 +56,7 @@
             android:layout_marginTop="12dp"
             android:background="@drawable/edittext_background"
             android:ems="10"
+            android:fontFamily="@font/sf_light"
             android:hint="Enter your name"
             android:inputType="textPersonName"
             android:padding="12dp"
@@ -66,10 +68,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:fontFamily="@font/sf_medium"
             android:text="Email"
             android:textColor="#000000"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName"
@@ -78,6 +80,7 @@
             android:layout_marginTop="12dp"
             android:background="@drawable/edittext_background"
             android:ems="10"
+            android:fontFamily="@font/sf_light"
             android:hint="Enter your email"
             android:inputType="textPersonName"
             android:padding="12dp"
@@ -89,10 +92,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:fontFamily="@font/sf_medium"
             android:text="Password"
             android:textColor="#000000"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="20sp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -100,6 +103,7 @@
             android:layout_marginTop="12dp"
             android:background="@drawable/edittext_background"
             android:ems="10"
+            android:fontFamily="@font/sf_light"
             android:hint="Enter your password"
             android:inputType="textPersonName"
             android:padding="12dp"
@@ -111,10 +115,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:fontFamily="@font/sf_medium"
             android:text="Confirm Password"
             android:textColor="#000000"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="20sp" />
 
         <EditText
             android:layout_width="match_parent"
@@ -122,6 +126,7 @@
             android:layout_marginTop="12dp"
             android:background="@drawable/edittext_background"
             android:ems="10"
+            android:fontFamily="@font/sf_light"
             android:hint="Re-enter your password"
             android:inputType="textPassword"
             android:padding="12dp"
@@ -135,9 +140,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:background="@drawable/button_background"
+            android:fontFamily="@font/sf_medium"
             android:text="Sign Up"
             android:textColor="#ffffff"
-            android:textSize="25sp"
-            android:textStyle="bold" />
+            android:textSize="25sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
