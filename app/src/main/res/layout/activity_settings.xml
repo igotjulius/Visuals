@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary"
+    android:background="@drawable/settings_bg"
     android:orientation="vertical"
     tools:context=".Settings">
 
@@ -22,10 +22,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+            android:fontFamily="@font/sf_medium"
             android:text="Settings"
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textSize="18sp" />
     </RelativeLayout>
 
     <ScrollView
@@ -52,13 +52,14 @@
                 android:text="John Doe"
                 android:textColor="#FFFFFF"
                 android:textSize="22dp"
-                android:textStyle="bold" />
+                android:fontFamily="@font/sf_regular"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Traveller"
+                android:fontFamily="@font/sf_light"
                 android:textColor="#CCFFFFFF"
                 android:textSize="22sp" />
 
@@ -71,14 +72,15 @@
                 android:paddingStart="30dp"
                 android:paddingEnd="30dp"
                 android:text="Edit Profile"
+                android:fontFamily="@font/sf_medium"
                 android:textAllCaps="false"
-                android:textColor="@color/primary" />
+                android:textColor="#000000" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
                 android:background="@drawable/round_back_white10_20"
                 android:orientation="vertical"
@@ -104,8 +106,8 @@
                         android:layout_marginStart="20dp"
                         android:layout_toEndOf="@+id/nightModeIcon"
                         android:text="Night Mode"
-                        android:textColor="#FFFFFF"
-                        android:textStyle="bold" />
+                        android:fontFamily="@font/sf_bold"
+                        android:textColor="#FFFFFF" />
 
                     <androidx.appcompat.widget.SwitchCompat
                         android:layout_width="wrap_content"
@@ -138,7 +140,7 @@
                         android:layout_toEndOf="@+id/notificationsIcon"
                         android:text="Notifications"
                         android:textColor="#FFFFFF"
-                        android:textStyle="bold" />
+                        android:fontFamily="@font/sf_bold"/>
 
                     <androidx.appcompat.widget.SwitchCompat
                         android:layout_width="wrap_content"
@@ -182,7 +184,7 @@
                         android:layout_toEndOf="@+id/securityIcon"
                         android:text="Security &amp; Privacy"
                         android:textColor="#FFFFFF"
-                        android:textStyle="bold" />
+                        android:fontFamily="@font/sf_bold"/>
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -215,7 +217,7 @@
                         android:layout_toEndOf="@+id/messageIcon"
                         android:text="Contact Us"
                         android:textColor="#FFFFFF"
-                        android:textStyle="bold" />
+                        android:fontFamily="@font/sf_bold"/>
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -248,7 +250,7 @@
                         android:layout_toEndOf="@+id/aboutUsIcon"
                         android:text="About Us"
                         android:textColor="#FFFFFF"
-                        android:textStyle="bold" />
+                        android:fontFamily="@font/sf_bold"/>
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -291,7 +293,7 @@
                         android:layout_toEndOf="@+id/signOutIcon"
                         android:text="Sign Out"
                         android:textColor="#FFFFFF"
-                        android:textStyle="bold" />
+                        android:fontFamily="@font/sf_bold"/>
 
                     <ImageView
                         android:layout_width="wrap_content"
