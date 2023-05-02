@@ -106,7 +106,7 @@
                         android:layout_marginStart="20dp"
                         android:layout_toEndOf="@+id/nightModeIcon"
                         android:text="Night Mode"
-                        android:fontFamily="@font/sf_bold"
+                        android:fontFamily="@font/sf_regular"
                         android:textColor="#FFFFFF" />
 
                     <androidx.appcompat.widget.SwitchCompat
@@ -140,7 +140,7 @@
                         android:layout_toEndOf="@+id/notificationsIcon"
                         android:text="Notifications"
                         android:textColor="#FFFFFF"
-                        android:fontFamily="@font/sf_bold"/>
+                        android:fontFamily="@font/sf_regular"/>
 
                     <androidx.appcompat.widget.SwitchCompat
                         android:layout_width="wrap_content"
@@ -184,7 +184,7 @@
                         android:layout_toEndOf="@+id/securityIcon"
                         android:text="Security &amp; Privacy"
                         android:textColor="#FFFFFF"
-                        android:fontFamily="@font/sf_bold"/>
+                        android:fontFamily="@font/sf_regular"/>
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -217,7 +217,7 @@
                         android:layout_toEndOf="@+id/messageIcon"
                         android:text="Contact Us"
                         android:textColor="#FFFFFF"
-                        android:fontFamily="@font/sf_bold"/>
+                        android:fontFamily="@font/sf_regular"/>
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -250,7 +250,7 @@
                         android:layout_toEndOf="@+id/aboutUsIcon"
                         android:text="About Us"
                         android:textColor="#FFFFFF"
-                        android:fontFamily="@font/sf_bold"/>
+                        android:fontFamily="@font/sf_regular"/>
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -293,7 +293,7 @@
                         android:layout_toEndOf="@+id/signOutIcon"
                         android:text="Sign Out"
                         android:textColor="#FFFFFF"
-                        android:fontFamily="@font/sf_bold"/>
+                        android:fontFamily="@font/sf_regular"/>
 
                     <ImageView
                         android:layout_width="wrap_content"
