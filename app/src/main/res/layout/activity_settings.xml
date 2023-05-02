@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/settings_bg"
+    android:background="@drawable/blue_bg3"
     android:orientation="vertical"
     tools:context=".Settings">
 
@@ -175,7 +175,7 @@
                         android:layout_height="40dp"
                         android:background="@drawable/round_back_security"
                         android:padding="12dp"
-                        android:src="@drawable/security" />
+                        android:src="@drawable/lock" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -283,7 +283,7 @@
                         android:id="@+id/signOutIcon"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:background="@drawable/round_back_security"
+                        android:background="@drawable/round_back_signout"
                         android:padding="12dp"
                         android:src="@drawable/sign_out" />
 
