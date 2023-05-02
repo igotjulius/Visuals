@@ -17,7 +17,7 @@ class LoginActivity1 : AppCompatActivity() {
         val sign_up = findViewById<TextView>(R.id.label_btn) as TextView
 
         btn_login.setOnClickListener(View.OnClickListener {
-            val intent = Intent(this, MapsActivity::class.java)
+            val intent = Intent(this, MapsActivity_dummy::class.java)
             startActivity(intent)
         })
 

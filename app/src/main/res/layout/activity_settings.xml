@@ -13,6 +13,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
+            android:id="@+id/back_btn"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:padding="14dp"
@@ -273,6 +274,7 @@
                 android:padding="15dp">
 
                 <RelativeLayout
+                    android:id="@+id/sign_out"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:baselineAligned="false">
@@ -291,9 +293,9 @@
                         android:layout_centerVertical="true"
                         android:layout_marginStart="20dp"
                         android:layout_toEndOf="@+id/signOutIcon"
+                        android:fontFamily="@font/sf_regular"
                         android:text="Sign Out"
-                        android:textColor="#FFFFFF"
-                        android:fontFamily="@font/sf_regular"/>
+                        android:textColor="#FFFFFF" />
 
                     <ImageView
                         android:layout_width="wrap_content"
