@@ -11,6 +11,8 @@
     <color name="sky_blue">#38B6FF</color>
     <color name="dark_blue">#191970</color>
     <color name="yellow">#FFC107</color>
+    <color name="light_grey">#E4E5EA</color>
+    <color name="grey">#D2D2D4</color>
     <color name="primary">#225378</color>
     <color name="secondary">#EB7F00</color>
     <color name="night_mode">#F3FFE2</color>
