@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/blue_bg3"
+    android:background="@drawable/bg_light2"
     tools:context=".LoginActivity1">
 
     <ScrollView
@@ -25,11 +25,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="44dp"
+                    android:fontFamily="@font/sf_black"
                     android:text="VISUALS"
                     android:textColor="#ffffff"
                     android:textSize="40sp"
                     android:textStyle="bold"
-                    android:fontFamily="@font/sf_black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.495"
                     app:layout_constraintStart_toStartOf="parent"
@@ -119,8 +119,8 @@
                         android:id="@+id/textView3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Forgot your Password?"
                         android:fontFamily="@font/sf_regular"
+                        android:text="Forgot your Password?"
                         android:textAlignment="center"
                         android:textColor="#ffffff" />
 
@@ -192,10 +192,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
+                    android:fontFamily="@font/sf_regular"
                     android:text="Don't Have An Account? SIGNUP"
                     android:textColor="#ffffff"
                     android:textSize="15sp"
-                    android:fontFamily="@font/sf_regular"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
